@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Resume</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <nav class="sidebar-nav" aria-label="Main Navigation">
+            <h2>My Portfolio Menu</h2>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i><span> Home</span></a></li>
+                <li><a href="projects.html"><i class="fas fa-code"></i><span> Projects</span></a></li>
+                <li><a href="resume.html" class="active"><i class="fas fa-file-alt"></i><span> Resume</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i><span> Contact Me</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Timer Display -->
+        <div id="pageTimer" aria-label="Page Viewing Timer">
+            <i class="fas fa-clock"></i> <span id="timerDisplay">00:00:00</span>
+        </div>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="sidebarToggle" aria-label="Toggle Sidebar" aria-expanded="true">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <!-- Main Content -->
+    <div id="content">
+        <main id="main">
+            <section class="resume">
+                <h1>Changhong Ding (Owen)</h1>
+                <p class="contact-info">
+                    <i class="fas fa-phone"></i> +1 717-343-8569 | 
+                    <i class="fas fa-envelope"></i> <a href="mailto:dchoh@umich.edu">dchoh@umich.edu</a>
+                </p>
+
+                <!-- Education Section -->
+                <section class="education">
+                    <h2>Education</h2>
+
+                    <div class="education-item">
+                        <h3>The University of Michigan</h3>
+                        <p class="education-details">
+                            <strong>Master of Information and Science</strong> <br>
+                            UI/UX Track <br>
+                            <span class="dates">Aug 2024 - May 2026</span> | Ann Arbor, USA
+                        </p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>The Pennsylvania State University</h3>
+                        <p class="education-details">
+                            <strong>Bachelor of Information Science and Technology</strong> <br>
+                            GPA: 3.87/4.0, Cum Laude Distinction <br>
+                            <span class="dates">Aug 2020 – May 2024</span> | State College, USA
+                        </p>
+                        <p class="courses"><strong>Courses:</strong> Human-Centered Design, IT Project Management, Emerging Issues and Technologies, Network and Telecom, Information and Organization</p>
+                    </div>
+                </section>
+
+                <!-- Projects Experience Section -->
+                <section class="projects-experience">
+                    <h2>Projects Experience</h2>
+
+                    <div class="project-experience-item">
+                        <h3>Bank Security Assessment Program</h3>
+                        <p class="project-details">
+                            <span class="dates">Jan 2023 - May 2023</span> | PA, USA
+                        </p>
+                        <ul>
+                            <li>Partnered with EY's IT audit consultants to assess and enhance the security of a bank's IT infrastructure.</li>
+                            <li>Employed risk assessment tools and surveys to collect user feedback and analyze IT risk indices.</li>
+                            <li>Identified high-risk areas and trends within the IT environment.</li>
+                            <li>Proposed effective risk mitigation strategies and generated reports on financial and cultural impacts.</li>
+                            <li>Recommended solutions to bolster system security, improve customer confidence, and optimize operational efficiency.</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-experience-item">
+                        <h3>"StorageBNB" Campus Storage Solution</h3>
+                        <p class="project-details">
+                            <span class="dates">Sep 2022 - Dec 2022</span> | PA, USA
+                        </p>
+                        <ul>
+                            <li>Conceptualized and planned "StorageBNB," a storage solution for short to long-term needs.</li>
+                            <li>Developed product propositions and feature designs based on user research.</li>
+                            <li>Created three-levels fidelity prototype using Figma, focusing on UI/UX design and feature implementation.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="experience">
+                    <h2>Experience</h2>
+
+                    <div class="experience-item">
+                        <h3>Research Assistant, HUMAN-AUTOMATION INTERACTION Lab, PSU</h3>
+                        <p class="experience-details">
+                            <span class="dates">Sep 2023 - May 2024</span> | PA, USA
+                        </p>
+                        <ul>
+                            <li>Participated in the project: Gaming Cognition and Performance in Esports: Web-based Experiments and Survey Study.</li>
+                            <li>Designed an online questionnaire to collect video game players’ experience, cognitive skills, and performance.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>NewlandNPT Operations Engineer Internship</h3>
+                        <p class="experience-details">
+                            <span class="dates">May 2023 - July 2023</span> | Fuzhou, China
+                        </p>
+                        <ul>
+                            <li>Participated in the planning and deployment of internal servers and network equipment across multiple data centers to ensure optimal performance and layout.</li>
+                            <li>Monitored hardware operations to maintain a stable IT infrastructure.</li>
+                            <li>Trained staff on proper use and maintenance of IT equipment.</li>
+                            <li>Performed configuration and performance assessments of servers and network devices.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Awards Section -->
+                <section class="awards">
+                    <h2>Awards</h2>
+                    <ul>
+                        <li><strong>First Place</strong> - College of IST Capstone Project, The Pennsylvania State University (May 2024)</li>
+                        <li><strong>Dean's List</strong> - Multiple Semesters</li>
+                        <li><strong>Cum Laude Distinction</strong> (Top 6%) - The Pennsylvania State University</li>
+                    </ul>
+                </section>
+
+                <!-- Skills Section -->
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><strong>Programming Languages:</strong> Python</li>
+                        <li><strong>Tools:</strong> Microsoft Office Suite (Excel with PivotTables, PowerPoint), Figma</li>
+                        <li><strong>Technical:</strong> IT Infrastructure Planning, Network Deployment, UI/UX Design, Web Programming, App Development</li>
+                        <li><strong>Languages:</strong> English (Fluent), Chinese (Native)</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="view-resume1">
+                <h2>View My Resume by click the button below</h2>
+                <div class="view-resume">
+                    <a href="https://drive.google.com/file/d/18hR8yFuGo2nHzqMoHXBbYVx0xrXdrWC_/view?usp=sharing" class="resume-button">View Resume</a>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <p>© <span id="year"></span> Changhong Ding. All rights reserved.</p>
+        </footer>
+    </div>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

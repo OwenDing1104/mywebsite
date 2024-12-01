@@ -1,0 +1,94 @@
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <nav class="sidebar-nav">
+            <h2>My Portfolio Menu</h2>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i><span> Home</span></a></li>
+                <li><a href="projects.html"><i class="fas fa-code"></i><span> Projects</span></a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i><span> Resume</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i><span> Contact Me</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Timer Display -->
+        <div id="pageTimer" aria-label="Page Viewing Timer">
+            <i class="fas fa-clock"></i> <span id="timerDisplay">00:00:00</span>
+        </div>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="sidebarToggle" aria-label="Toggle Sidebar">
+        <i class="fas fa-arrow-left"></i> <!-- Starts with left arrow indicating collapse -->
+    </button>
+
+
+    <!-- Main Content -->
+    <div id="content">
+        <main id="main">
+            <section id="introduction">
+                <div class="intro-text">
+                    <h2>Welcome to My Website</h2>
+                    <p>Hello! I'm <strong>Changhong Ding</strong>, a first-year <a href="https://www.si.umich.edu/">UMSI</a> student at <em>University of Michigan</em>.</p>
+                    <p>I spent my undergraduate period at <a href="https://ist.psu.edu/">College of Information Science and Technology</a>, <em>Pennsylvania State University</em>, and gained my bachelor degree with Cum Laude Distinction.</p>
+                    <p>I specialize in <em>Information Science, including XR and Web Design</em>, and have a passion for games and technology-related information.</p>
+                    <p>My personal interests are playing video games (almost all kinds) and watching sports such as College Football.</p>
+                    <p>I also love to take photos when I find the scenes <em>beautiful</em>.</p>
+                    <p>My home teams are <img src="photo/lion.png" alt="Nittany Lion Logo" class="small-icon"> Nittany Lions (We Are!) and <img src="photo/Liverpool.jpeg" alt="Liverpool Logo" class="small-icon"> Liverpool (You'll Never Walk Alone).</p>
+                    <p>Feel free to browse through my projects, check out my resume, or get in touch!</p>
+                </div>
+                <div class="intro-image">
+                    <img src="photo/Myphoto.jpg" alt="My Photo">
+                    <p>Hi!</p>
+                </div>
+            </section>
+            <section id="photo-gallery">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="photo">
+                        <img src="photo/Cloud1.jpeg" alt="Cloudy Sky 1">
+                        <figcaption>Blue Cloud</figcaption>
+                    </div>
+                    <div class="photo">
+                        <img src="photo/Cloud2.jpeg" alt="Cloudy Sky 2">
+                        <figcaption>Dark Cloud</figcaption>
+                    </div>
+                    <div class="photo">
+                        <img src="photo/Chicago1.jpeg" alt="Chicago Skyline">
+                        <figcaption>Chicago</figcaption>
+                    </div>
+                    <div class="photo">
+                        <img src="photo/England1.jpeg" alt="England Center">
+                        <figcaption>England Westminster</figcaption>
+                    </div>
+                    <div class="photo">
+                        <img src="photo/keywest1.jpeg" alt="Key West Sunset">
+                        <figcaption>Key West Sunset</figcaption>
+                    </div>
+                    <div class="photo">
+                        <img src="photo/guizhou2.jpeg" alt="Guizhou">
+                        <figcaption>Guizhou Xijiang Thousand Family Miao Village</figcaption>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© <span id="year"></span> Changhong Ding. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

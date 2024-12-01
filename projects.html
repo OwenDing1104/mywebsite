@@ -1,0 +1,106 @@
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    
+    <!-- Timer Display -->
+    <div id="pageTimer" aria-label="Page Viewing Timer">
+        <i class="fas fa-clock"></i> <span id="timerDisplay">00:00:00</span>
+    </div>
+    
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <nav class="sidebar-nav" aria-label="Main Navigation">
+            <h2>My Portfolio Menu</h2>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i><span> Home</span></a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-code"></i><span> Projects</span></a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i><span> Resume</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i><span> Contact Me</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="sidebarToggle" aria-label="Toggle Sidebar" aria-expanded="true">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <!-- Main Content -->
+    <div id="content">
+        <main id="main">
+            <section class="projects">
+                <h1>My Projects</h1>
+
+                <!-- Project 1 -->
+                <article class="project" data-aos="fade-up">
+                    <h2>XR Climate Change</h2>
+                    <p class="project-date-location">Aug 2024 - Dec 2024 | MI, USA</p>
+                    <div class="timer" id="timer-xr-climate-change"></div> <!-- Timer Container -->
+                    <ul class="project-details">
+                        <li>Focus on the Climate change in the earth</li>
+                        <li>Using the XR technology to show the climate change in the past and future</li>
+                        <li>Present with the height change of Sea Level and polar bear living areas</li>
+                        <li>Still in progress...</li>
+                    </ul>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project" data-aos="fade-up">
+                    <h2>Students Assistants Discussion Forum</h2>
+                    <p class="project-date-location">Jan 2024 - May 2024 | PA, USA</p>
+                    <div class="timer" id="timer-students-assistants-forum"></div> <!-- Timer Container -->
+                    <ul class="project-details">
+                        <li>Focus on the Penn State University Students</li>
+                        <li>A comprehensive website can help students to find the group</li>
+                        <li>Housing information provided in the website</li>
+                        <li>Students can discuss everything around the Penn State university and State College</li>
+                        <li><a href="https://www.figma.com/proto/lQ8TmVi1zZF3mpwrINr2tE/IST440w?node-id=1-494&starting-point-node-id=1%3A494">Link</a></li>
+                    </ul>
+                </article>
+                <!-- Project 3 -->
+                <article class="project" data-aos="fade-up">
+                    <h2>Bank Security Assessment Program</h2>
+                    <p class="project-date-location">Jan 2023 - May 2023 | PA, USA</p>
+                    <ul class="project-details">
+                        <li>Partnered with EY's IT audit consultants to assess and enhance the security of a bank's IT infrastructure.</li>
+                        <li>Employed risk assessment tools and surveys to collect user feedback and analyze IT risk indices.</li>
+                        <li>Identified high-risk areas and trends within the IT environment.</li>
+                        <li>Proposed effective risk mitigation strategies and generated reports on financial and cultural impacts.</li>
+                        <li>Recommended solutions to bolster system security, improve customer confidence, and optimize operational efficiency.</li>
+                    </ul>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project" data-aos="fade-up">
+                    <h2>StorageBNB Campus Storage Solution</h2>
+                    <p class="project-date-location">Sep 2022 - Dec 2022 | PA, USA</p>
+                    <ul class="project-details">
+                        <li>Conceptualized and planned "StorageBNB," a storage solution for short to long-term needs.</li>
+                        <li>Developed product propositions and feature designs based on user research.</li>
+                        <li>Created three-levels fidelity prototype using Figma, focusing on UI/UX design and feature implementation.</li>
+                        <li><a href="https://www.figma.com/proto/WOZXH4lwayMBIxgpz6PnnJ/IST-331%3A-Storage-BnB?node-id=143-3481&starting-point-node-id=143%3A2052&t=wSOeV9UH8l1ob9OV-1">Link</a></li>
+                    </ul>
+                </article>
+
+                <!-- Add more projects here -->
+            </section>
+        </main>
+        <footer>
+            <p>© <span id="year"></span> Changhong Ding. All rights reserved.</p>
+        </footer>
+    </div>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
