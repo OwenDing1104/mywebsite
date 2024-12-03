@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Keyboard Shortcut: Ctrl + B to toggle sidebar
     document.addEventListener('keydown', function(e) {
         if (e.ctrlKey && (e.key === 'b' || e.key === 'B')) {
-            e.preventDefault(); // Prevent default browser behavior
+            e.preventDefault();
             toggleSidebar();
         }
     });
@@ -59,12 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
     startPageTimer();
 });
 
-/**
- * Shared Page Timer Functionality
- */
+/* Shared Page Timer Functionality*/
 function startPageTimer() {
     const timerDisplay = document.getElementById('timerDisplay');
-    if (!timerDisplay) return; // Exit if timer element not found
+    if (!timerDisplay) return;
 
     let secondsElapsed = parseInt(localStorage.getItem('secondsElapsed')) || 0;
     let lastTimestamp = parseInt(localStorage.getItem('lastTimestamp')) || Date.now();
@@ -88,7 +86,7 @@ function startPageTimer() {
     function updateTimer() {
         const currentTime = Date.now();
         const deltaSeconds = Math.floor((currentTime - lastTimestamp) / 1000);
-        if (deltaSeconds > 0) { // To handle rapid page switches
+        if (deltaSeconds > 0) {
             secondsElapsed += deltaSeconds;
             lastTimestamp = currentTime;
 

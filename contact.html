@@ -12,7 +12,6 @@
 <body>
     <a href="#main" class="skip-link">Skip to Main Content</a>
     
-    <!-- Sidebar Navigation -->
     <div id="sidebar" class="sidebar">
         <nav class="sidebar-nav" aria-label="Main Navigation">
             <h2>My Portfolio Menu</h2>
@@ -23,26 +22,22 @@
                 <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i><span> Contact Me</span></a></li>
             </ul>
         </nav>
-
-        <!-- Timer Display -->
+]
         <div id="pageTimer" aria-label="Page Viewing Timer">
             <i class="fas fa-clock"></i> <span id="timerDisplay">00:00:00</span>
         </div>
     </div>
 
-    <!-- Toggle Button -->
     <button id="sidebarToggle" aria-label="Toggle Sidebar" aria-expanded="true">
-        <i class="fas fa-arrow-left"></i> <!-- Starts with left arrow indicating collapse -->
+        <i class="fas fa-arrow-left"></i>
     </button>
     
-    <!-- Main Content -->
     <div id="content">
         <main id="main">
             <section class="contact-form">
                 <h1>Contact Me</h1>
                 <p class="contact-description">Feel free to reach out to me by filling out the form below. I'll get back to you as soon as possible!</p>
                 
-                <!-- Contact Form -->
                 <form action="https://formspree.io/f/mzzbkqqw" method="POST" class="form" id="contactForm">
                     <div class="form-group">
                         <label for="name">Full Name<span class="required">*</span></label>
@@ -69,7 +64,6 @@
                     </div>
                 </form>
 
-                <!-- Success Message -->
                 <div id="successMessage" class="success-message" style="display: none;">
                     <p>Thank you for your message! I'll get back to you soon.</p>
                 </div>

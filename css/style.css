@@ -197,20 +197,20 @@ h2 {
 @media (max-width: 700px) {
     /* Adjustments for smaller screens */
     #sidebar {
-        width: 250px; /* Expanded */
+        width: 250px;
     }
 
     #sidebar.collapsed {
-        width: 0; /* Fully collapsed on small screens */
+        width: 0;
     }
 
     #sidebarToggle {
-        left: 250px; /* Position when expanded */
-        top: 20px; /* Move to top on small screens */
+        left: 250px;
+        top: 20px;
     }
 
     #sidebar.collapsed + #sidebarToggle {
-        left: 10px; /* Position when collapsed */
+        left: 10px;
     }
 
     #content {
@@ -218,7 +218,7 @@ h2 {
     }
 
     #sidebar.collapsed ~ #content {
-        margin-left: 0; /* Sidebar is collapsed */
+        margin-left: 0;
     }
 }
 
@@ -427,14 +427,14 @@ h2 {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: rgba(4, 30, 66, 0.8); /* Semi-transparent dark background */
-    color: #FFCB05; /* Gold color for visibility */
+    background-color: rgba(4, 30, 66, 0.8);
+    color: #FFCB05;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 1em;
     display: flex;
     align-items: center;
-    z-index: 1200; /* Above sidebar and other elements */
+    z-index: 1200;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -602,8 +602,8 @@ h2 {
 }
 .view-resume {
     display: flex;
-    justify-content: center; /* Centers the button horizontally */
-    align-items: center;     /* Centers the button vertically if needed */
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
 }
 
@@ -612,14 +612,14 @@ h2 {
     color: #041E42;
     border: none;
     border-radius: 5px;
-    font-size: 1.3em; /* Increased font size */
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     display: inline-flex;
     align-items: center;
-    padding: 10px 20px; /* Increased padding for larger button */
+    padding: 10px 20px;
 }
 
 .resume-button i {
@@ -629,14 +629,14 @@ h2 {
 
 /* Hover Effects */
 .resume-button:hover {
-    background-color: #e6b800; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight upward movement */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    background-color: #e6b800;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .resume-button:focus {
-    outline: none; /* Removes default focus outline */
-    box-shadow: 0 0 0 3px rgba(255, 203, 5, 0.5); /* Adds a custom focus shadow */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 203, 5, 0.5);
 }
 /* COntact me section */
 .contact-form {
